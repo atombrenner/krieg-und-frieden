@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "outDir": "build",
+    "module": "commonjs",
+    "target": "es2018",
+    "lib": ["dom", "es2019"],
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": false,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@article/model": ["./src/model/index.ts"],
+      "@article/*": ["./src/*"]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@emotion/core/types",
+      "./node_modules/@emotion/css/types",
+      "./node_modules/@emotion/cache/types",
+      "./node_modules/@emotion/serialize/types",
+      "./src/typings"
+    ],
+    "rootDirs": ["src", ".storybook"]
+  }
+}

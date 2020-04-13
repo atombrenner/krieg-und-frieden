@@ -1,0 +1,19 @@
+{
+  "name": "krieg-und-frieden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node -T index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.12.35",
+    "outdate": "^1.0.1",
+    "prettier": "^2.0.4",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
